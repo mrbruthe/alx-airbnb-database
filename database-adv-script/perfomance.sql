@@ -1,4 +1,4 @@
--- Optimized query retrieving bookings with users, properties, and payments
+-- Initial complex query (optimized using indexing)
 SELECT b.booking_id, b.start_date, b.end_date,
        u.user_id, u.name AS user_name,
        p.property_id, p.name AS property_name,
